@@ -1,0 +1,19 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"out": "./docs",
+	"entryPoints": [
+		"./index.ts",
+		"./actions-types/index.ts",
+		"./contract/index.ts",
+		"./errors/index.ts",
+		"./memory-client/index.ts",
+		"./predeploys/index.ts",
+		"./procedures-types/index.ts",
+		"./http-client/index.ts",
+		"./server/index.ts"
+	],
+	"plugin": [
+		"typedoc-plugin-markdown"
+	],
+	"gitRevision": "main"
+}

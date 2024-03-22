@@ -1,0 +1,11 @@
+packages:
+  - "bundler-packages/*"
+  - "bundler"
+  - "configs/*"
+  - "docs"
+  - "examples/*"
+  - "experimental/*"
+  - "extensions/*"
+  - "lsp/*"
+  - "packages/*"
+  - 'tevm'

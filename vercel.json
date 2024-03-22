@@ -1,0 +1,6 @@
+{
+	"buildCommand": "bun run build",
+	"framework": "astro",
+	"installCommand": "pnpm install",
+	"outputDirectory": "docs/dist"
+}

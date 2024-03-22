@@ -1,0 +1,23 @@
+{
+  "extends": "@tevm/tsconfig/base.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@evmts/ts-plugin"
+      }
+    ],
+    "module": "NodeNext",
+    "skipLibCheck": true
+  },
+  "include": [
+    "actions-types/index.ts",
+    "contract/index.ts",
+    "memory-client/index.ts",
+    "predeploys/index.ts",
+    "procedures-types/index.ts",
+    "http-client/index.ts",
+    "errors/index.ts",
+    "server/index.ts",
+    "index.ts"
+  ]
+}
